@@ -1,0 +1,72 @@
+{
+    "name": "Clay",
+    "logo": {
+      "light": "/logo/light.png",
+      "dark": "/logo/dark.png"
+    },
+    "favicon": "/favicon.png",
+    "colors": {
+      "primary": "#111827",
+      "light": "#FAFAFA",
+      "dark": "#111827"
+    },
+    "topbarCtaButton": {
+      "name": "Sign Up",
+      "url": "http://app.clay.com/signup?source=cta"
+    },
+    "topbarLinks": [
+      {
+        "name": "Log In",
+        "url": "https://app.clay.com/login"
+      }
+    ],
+    "anchors": [
+      {
+        "name": "Community",
+        "icon": "slack",
+        "url": "https://www.clay.com/#:~:text=Get%20support%20on%20Slack"
+      },
+      {
+        "name": "Privacy Policy",
+        "icon": "lock",
+        "url": "https://www.clay.com/privacy"
+      }
+    ],
+    "tabs": [
+        {
+            "name": "AI With Clay",
+            "url": "ai-with-clay"
+        }
+    ],
+    "navigation": [
+      {
+        "group": "Welcome to Clay",
+        "pages": [
+            "start-here/quickstart-what-is-clay",
+            "start-here/guide"
+        ]
+      },
+      {
+        "group": "A Guide to AI With Clay",
+        "pages": ["ai-with-clay/guide"]
+      },
+      {
+        "group": "Learn More",
+        "pages": [
+          {
+            "group": "Sources",
+            "pages": [
+              "import-csv",
+              "webhook"
+            ]
+          },
+          "faq"
+        ]
+      }
+    ],
+    "footerSocials":
+      {
+          "twitter": "https://twitter.com/clayrunhq?lang=en",
+          "linkedin": "https://www.linkedin.com/company/clay-hq/"
+      }
+  }

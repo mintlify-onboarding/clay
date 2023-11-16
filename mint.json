@@ -6,9 +6,9 @@
     },
     "favicon": "/favicon.png",
     "colors": {
-      "primary": "#111827",
-      "light": "#FAFAFA",
-      "dark": "#111827"
+      "primary": "#038FF7",
+      "light": "#4CB3FF",
+      "dark": "#038FF7"
     },
     "topbarCtaButton": {
       "name": "Sign Up",
@@ -34,33 +34,29 @@
     ],
     "tabs": [
         {
-            "name": "AI With Clay",
-            "url": "ai-with-clay"
+            "name": "Extras",
+            "url": "extra-extra"
         }
     ],
     "navigation": [
       {
-        "group": "Welcome to Clay",
+        "group": "Start Here",
         "pages": [
-            "start-here/quickstart-what-is-clay",
-            "start-here/guide"
+          "start-here/home",
+          "start-here/getting-started",
+          {
+            "group": "Using Clay",
+            "pages": [
+              "start-here/using-clay/how-clay-works"
+            ]
+          }
         ]
       },
       {
-        "group": "A Guide to AI With Clay",
-        "pages": ["ai-with-clay/guide"]
-      },
-      {
-        "group": "Learn More",
+        "group": "Extras",
         "pages": [
-          {
-            "group": "Sources",
-            "pages": [
-              "import-csv",
-              "webhook"
-            ]
-          },
-          "faq"
+          "extra-extra/faq",
+          "extra-extra/instructions"
         ]
       }
     ],

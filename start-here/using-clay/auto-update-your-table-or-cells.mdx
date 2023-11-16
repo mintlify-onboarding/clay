@@ -1,0 +1,38 @@
+---
+title: "Auto-Update Your Table, or Cells"
+---
+
+### 1️⃣ What does it do?
+
+Auto-update is a way to make sure your workflow runs automatically. Auto-update can be disabled at both the table and the column level.
+
+🚨Please note: You should not turn auto-update off on a table for an extended period of time. It's meant to be used mainly for when you want to test a small change's effect on an entire table. If you are not advanced with Clay though, you can leave this feature on all the time.
+
+---
+
+### 2️⃣ How does it work?
+
+ Let's say you had 3 columns that connected to each other in the following order.
+
+* LinkedIn Profile -> Enrich Person from LinkedIn Profile -> Find Work Email
+
+Scenario 1:
+
+> If auto-update is on for both the table, and all columns:
+> 
+> * Any new row added to the table will automatically go through that workflow
+
+Scenario 2:
+
+> If auto-update is turned off for one column (Let's say Find Work Email column)
+> 
+> * When a new row is added, Enrich person will run, but the "Find Work Email" column will not run. You'll need to manually click play on a specific cell or the entire column to make Find Work Email run
+
+Scenario 3:
+
+> If auto-update is turned off for the entire table
+> 
+> * When a new row is added, none of the enrichments will run. You'll need to manually run each column (or cell) in the correct order for the workflow to work.
+
+
+### 3️⃣ Learn more
